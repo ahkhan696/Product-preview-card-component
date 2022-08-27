@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Practice</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="bg-lightBrown">
+    <div class="flex flex-col justify-center p-7 my-4 mx-auto md:my-48 md:spase-y-0 md:flex-row md:max-w-2xl md:justify-center">
+        <div class="flex flex-col md:w-1/2">
+            <img src="images/image-product-desktop.jpg" alt="" class="w-full md:rounded-l-lg hidden md:block" />
+            <img src="images/image-product-mobile.jpg" alt="" class="block rounded-t-lg md:hidden" />
+        </div>
+        <div class="p-6 bg-white rounded-b-lg md:rounded-r-lg md:w-1/2">
+            <p class="text-lightGray uppercase tracking-[.35em] text-xs font-medium">Perfume</p>
+            <h1 class="text-4xl py-6 font-bold font-serif">Gabrielle Essence Eau De Parfum</h1>
+            <p class="text-lightGray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime velit odio cum possimus delectus maiores nobis!</p>
+            <div class="flex space-x-4 my-3">
+                <h1 class="text-3xl font-bold font-serif tracking-tighter text-lightGreen">$149.99</h1>
+                <div class="pt-3"><del class="text-lightGray">$169.99</del></div>
+            </div>
+            <button class="bg-lightGreen rounded-md w-full text-white p-3 font-bold hover:bg-darkLightGreen">Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>
